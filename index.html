@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Singh</title>
+
+    <!-- ==============CSS LINK============= -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>    
+    <div id="contain1">
+        <div id="nav">
+            <h1>DevFolio</h1>
+            <div id="menu" onclick="cross(this)">
+                <div class="bar1 bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar3 bar"></div>
+            </div>
+
+            <div id="menucon">
+                <a href="#contain1" class="close">HOME</a>
+                <a href="#contain2" class="close">ABOUT</a>
+                <a href="#contain3" class="close">SERVICE</a>
+                <a href="#contain4" class="close">PROJECT</a>
+                <a href="#contain5" class="close">CONTACT</a>
+                </div>
+               
+        </div>
+        <!-- SOCIAL LINKS --> 
+        <div id="social">
+            <i class="fa fa-facebook-square social"></i>
+            <i class="fa fa-instagram social"></i>
+            <i class="fa fa-pinterest-square social"></i>
+            <i class="fa fa-twitter-square social"></i>
+        </div>
+
+        <div class="heading font">I am Saurabh Singh
+        </div>
+        <p class="heading2 font"><span></span></p>
+        
+         <!-- ttop icon -->  
+         <a href="#contain1" id="top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+         
+    </div>
+
+    <div id="contain2">
+
+        <h2 style="color: white;padding: 10px;font-weight: 400;" class="font">About</h2>
+
+        <div class="about">
+
+            <div class="aboutpt1 abt">  
+                <img src="images/about.jpg"> 
+            </div>
+            <div class="aboutpt2 abt font">
+                <p>Hey there !<i>&#9995;</i><br>I'm Saurabh Singh, 21 years old living in Mumbai. I'm currently working as a freelancer in Web Development. On top of that, I'm completed my graduation at Mumbai.</p>
+                <p>I'm absolutely passionate about my work. I try to learn about these topic as much as i can !</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skillbar" data-aos="fade-up">
+                <h2 class="font">Software Skills</h2>
+                <p>HTML5</p>
+                <div class="skill-con">
+                    <div class="skill-val " style="width: 90%;" data-aos="fade-right"> &nbsp;90%
+
+                    </div>
+                </div>
+                <p>CSS3</p>
+                <div class="skill-con">
+                    <div class="skill-val css" style="width: 85%;" data-aos="fade-right"> &nbsp;85%
+                        
+                    </div>
+                </div>
+                <p>JAVASCRIPT</p>
+                <div class="skill-con">
+                    <div class="skill-val java" style="width: 75%;"> &nbsp;75%
+                        
+                    </div>
+                </div>
+                <p>PHP</p>
+                <div class="skill-con">
+                    <div class="skill-val php" style="width: 30%;"> &nbsp;30%
+                        
+                    </div>
+                </div>
+                <p>MySQL</p>
+                <div class="skill-con">
+                    <div class="skill-val mysql" style="width: 70%;"> &nbsp;70%
+                        
+                    </div>                
+                </div><br>
+            </div>
+        </div>
+    </div>
+
+    <div id="contain3">
+        <h2>Services</h2>
+        <div class="cards">
+            <div class="card card1">
+                <div class="icon">
+                    <img src="images/data.png" style="width: 100%;height: 100%;">
+                </div>
+                <p>Web Development</p>
+                <div class="ccon">
+                    <p>We work to design, create, and maintain websites and web applications. They can work on internet sites, as well as on intranet sites. They are usually employed by companies specialized in software development, IT, or computer consulting.</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="icon">
+                    <img src="images/responsive.png" style="height: 100%;width: 100%;">
+                </div>
+                <p>Responsive Webpage</p>
+                <div class="ccon">
+                    <p>We design website that makes web pages render well on a variety of devices and window or screen sizes. ... Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="icon">
+                    <img src="images/design.png" style="height: 100%;width: 100%;">
+                </div>
+                <p>Web Design</p>
+                <div class="ccon">
+                    <p>We provide you best design layout with good User Interface (UI) & User Experience (UX) to make the overall look of the website stunning and better user experience. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contain4">
+        <h2>Project</h2>
+        <div class="project-con">
+            <div class="proj proj1">
+                <img src="images/todo.jpg_fit=scale" style="width: 100%;height: 100%;">
+            </div>
+            <div class="proj proj2">
+                <img src="images/budget.png" style="width: 100%;height: 100%;">
+            </div>
+            <div class="proj proj3">
+                <img src="images/calc.jpg" style="width: 100%;height: 100%;">
+            </div>
+            <div class="proj proj4">
+                <img src="images/phpl.jpeg" style="width: 100%;height: 100%;">
+            </div>
+        </div>
+    </div>  
+
+    <!-- ==================PAGE 5================== -->
+    <div id="contain5">
+        <div id="small">
+        <!-- IMAGE -->
+        <div class="img"></div>
+        <!-- FORM AND CONTACT DETAILS -->
+        <form class="font"><br>
+            <b>CONTACT US</b><br>
+            <input type="text" name="firstname" placeholder="Firstname" required autocomplete="on">
+
+            <input type="text" name="Lastname" placeholder="Lastname">
+
+            <input type="email" name="Email" placeholder="Email" required autocomplete="on">
+
+            <textarea name="Message" style="height: 100px;" placeholder="Message here......."></textarea>
+
+            <input type="submit" value="Submit"><br>
+        </form>
+   </div>
+        <div class="map">
+            <div class="add1 add font">
+               <h3>Get in touch</h3>
+               <p>Thinking about a brand revamp or just want to find out how we can help your business? We’d love to hear from you</p><br>
+
+               <div id="get">
+               <p><strong>Email Us:</strong><a href="https://account.google.com/" target="_blank" style="color: white;"> &nbsp;saurabh260399@gmail.com</a></p>
+               <p><strong>Call us </strong>+91-8291181030</p>
+               <p><strong>DevFolio</strong><br>
+                9 Highwood Close<br>
+                Swindon<br>
+                Wiltshire<br>
+                SN2 2RE
+            </p>
+            </div>
+            </div>
+
+            <div class="add2 add">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7536.967561035126!2d72.95442700000001!3d19.174061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc664a9eae07e326a!2sMulund%20Station%20(W)!5e0!3m2!1sen!2sin!4v1595942477331!5m2!1sen!2sin" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        </div>
+
+    <div id="footer">
+        <div class="pt1">
+        <div class="links">
+            <i class="link fa fa-facebook-square"></i>
+            <i class="link fa fa-pinterest-square"></i>
+            <i class="link fa fa-twitter-square"></i>
+            <i class="link fa fa-linkedin-square"></i>
+        </div>
+        </div>
+        <p>Saurabh Singh &copy 2020</p>
+    </div>    
+
+    <!-- =================JAVASCRIPT LINK====== -->
+    <script src="index.js"></script>
+
+</body>
+</html>
